@@ -2,8 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	width:100%;
+*{
+	margin: 0;
+	padding: 0;
 }
 
 .clearfix::after{
@@ -211,13 +212,13 @@ header{
 }
 */
 
-#journal a img {
+/*#journal a img {
 	opacity: 1;
 }
 
 #journal a:hover img {
  opacity: 0.5;
-}
+}*/
 
 /*#journal .listcontainer img {
 	width: 150px;
@@ -296,28 +297,29 @@ footer {
 
 }
 
-@media screen and (max-width: 1024px){
+@media all and (max-width: 1024px){
 	.top-wrapper {width: 1024px;}
     .top-wrapper p {margin: 0 auto;
     	font-size: 20px;}
     .header-left {margin-left: 30px;}
     .header-right li {font-size:18px;}
-    .sns-group {margin-right: 100px;}
+    .sns-group {margin-right: 50px;}
     #about h3 {font-size: 20px;}
     #journal h3 {font-size: 20px;}
     #contact h3 {font-size: 20px;}
     #about p {font-size: 17px;
     	letter-spacing: 4px;
     	line-height: 30px;}
-    #journal .container{height: 2000px;}
-    #journal .listcontainer{width: 610px; height: 700px;}
-    #journal .listcontainer img{width: 300px; height: 300px;}
+    #journal .container{height: 800px;}
+    #journal .listcontainer{width: 465px; height: 700px;}
+
     #contact p {font-size: 17px;}
 
     footer {width: 1024px;
     	 height: 70px;
          font-size: 12px;}
 }
+
 
 @media screen and (max-width: 768px){
 	.heder-left img {margin:0 auto; width: 500px;}
