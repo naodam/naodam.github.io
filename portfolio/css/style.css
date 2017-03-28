@@ -1,0 +1,321 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: white;
+	padding-top: 30px;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	z-index: 100;
+
+}
+
+.header-left{
+	float: left;
+	width: 30%;
+	/*background-color: steelblue;*/
+}
+
+.header-left img{
+	width: 230px;
+	padding-bottom: 5px;
+}
+
+.header-right{
+	float: right;
+	width: 70%;
+	background-color: white;
+	position: relative;
+
+}	
+
+.sns-group a{
+	float:right;
+	text-align: right;
+	display: block;
+	color: gray;
+	padding-bottom: 10px;
+	padding-right: 0;
+	letter-spacing: 3px;
+	position: relative;
+
+}
+
+.sns-group a:hover {
+	color: yellow;
+
+}
+
+.header-right ul{
+    width: 500px;
+    float: right;
+    margin: 0;
+	right:0;
+	bottom: 10px;
+    position: absolute;
+    
+}
+
+.header-right ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+.header-right ul li a:hover {
+	color: yellow;
+
+}
+
+.header-right li{
+	float: left;
+	padding-right: 50px;
+	font-size:15px;
+	list-style: none;
+	letter-spacing: 3px;
+
+}
+
+
+.header-right li:last-child{
+	padding-right: 0;
+}
+
+/*TOP WRAPPER*/
+.top-wrapper .container{
+	position: relative;
+    width: 100%;
+    height: 500px; /ここの高さはいくつでも構いません/
+    z-index: 0;
+}
+
+/*.top-wrapper {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/top_flower.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}*/
+
+
+.top-wrapper p{
+	width: 500px;
+	height: 500px;
+	font-size: 15px;
+	font-family: serif;
+	text-align: right;
+	position: absolute;
+	top: 280px;
+	right: 100px;
+	
+	letter-spacing: 3px;
+	z-index: 50;
+}
+
+/*ABOUT*/
+
+#about container{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+#about h3 {
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    width: 1024px;
+    padding-top: 160px;
+}
+
+#about p {
+    font-family: serif;
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-align: center;
+    width: 1024px;
+/*    background-color: red;*/
+    padding: 40px 0 50PX 0;
+    line-height: 25px;
+
+}
+
+
+
+/*JOURNAL*/
+
+#journal .container {
+	width: 1024px;
+	height: 600px;
+	padding-top: 100px;
+	margin: 0 auto;
+    position: relative;
+
+}
+
+#journal h3 {
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    width: 1024px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+
+/*#journal img {
+	width: 250px;
+	margin-top: 30px;
+}*/
+
+#journal .listcontainer{
+	width: 775px;
+	height: 300px;
+	margin: 0 auto;
+	/*width: 750px;
+	height: 300px;
+	margin: 0 auto;
+	top:30px;
+    position: relative;
+	display: flex;*/
+	
+}
+/*#journal .listcontainer .box {
+	width: 750px;
+	height: 300px;
+	background-color: red;
+	
+}
+*/
+
+/*#journal a img {
+	opacity: 1;
+}
+
+#journal a:hover img {
+ opacity: 0.5;
+}*/
+
+/*#journal .listcontainer img {
+	width: 150px;
+	float: left;
+	margin-top:0;
+    margin-right: 20px;
+    margin: 0 auto; 
+    border: 5px;
+    width: 150px;
+    
+    flex-wrap: wrap;
+}*/
+
+
+
+#contact .container {
+	width: 1024px;
+	height: 1200px;
+	margin: 0 auto;
+	padding-top: 60px;
+	position: relative;
+
+}
+
+#contact h3 {
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    width: 1024px;
+    padding-top: 100px;
+    margin: 0;
+}
+
+#contact p {
+	font-family: serif;
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0 20PX 0;
+    line-height: 25px;
+}
+
+#contact iframe{
+	position: absolute;
+	top:280px;
+	right: 0;
+	bottom: 0;
+	left:0;
+	margin: 0 auto;
+}
+#contact form h3{
+	letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    width: 1024px;
+    padding-top: 60px;
+    margin: 0;
+}
+ 
+footer {
+	width: 100%;
+	height:70px;
+	background-color: yellow;
+	font-family: sans-serif;
+	color: white;
+    letter-spacing: 3px;
+    font-size: 8px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+   
+    margin: 0 ;
+
+}
+
+@media all and (max-width: 1024px){
+	.top-wrapper {width: 1024px;}
+    .top-wrapper p {margin: 0 auto;
+    	font-size: 20px;}
+    .header-left {margin-left: 30px;}
+    .header-right li {font-size:18px;}
+    .sns-group {margin-right: 50px;}
+    #about h3 {font-size: 20px;}
+    #journal h3 {font-size: 20px;}
+    #contact h3 {font-size: 20px;}
+    #about p {font-size: 17px;
+    	letter-spacing: 4px;
+    	line-height: 30px;}
+    #journal .container{height: 800px;}
+    #journal .listcontainer{width: 465px; height: 700px;}
+
+    #contact p {font-size: 17px;}
+
+    footer {width: 1024px;
+    	 height: 70px;
+         font-size: 12px;}
+}

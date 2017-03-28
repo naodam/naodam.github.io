@@ -1,0 +1,182 @@
+<!-- <!DOCTYPE html> -->
+
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+	<title>sunao</title>
+  <meta name="viewport" content="width=device-width,intial-scale=1">
+
+<link rel="stylesheet" href="css/style.css">
+  
+  
+  
+ 
+  
+<!-- jQuery.jsの読み込み -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<!-- skipprの記述 -->
+<link rel="stylesheet" href="css/skippr.css"> 
+
+<link rel="stylesheet" href="js/script.js">
+<link rel="stylesheet" href="js/skippr.js">
+    
+    
+<!-- スムーズスクロール部分の記述 -->
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 800; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+
+
+</head>
+
+<body>
+  
+
+  <header>
+
+    <div class="container clearfix">
+    <!-- ヘッダー左側ロゴ -->
+      <div class="header-left">
+        <img src="img/sunao_logo.jpg">
+      </div>
+    <!-- ヘッダー右側 -->
+      
+      <div class="sns-group clearfix">
+          <a href="#contact"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+          <a href="http://www.facebook.com/titypositpit"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+          <a href="http://www.instagram.com/titypositpit"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        </div>
+
+      <div class="header-right clearfix">
+        <ul>
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#journal">JOURNAL</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+<!-- TOPの画像 -->
+  
+  <div class="top-wrapper clearfix">
+  　　<div class="container">
+            <div style="background-image: url(img/top_flower.jpg)"></div>
+            <div style="background-image: url(img/top_sea.jpg)"></div>
+            
+            <div style="background-image: url(img/top_flower2.jpg)"></div>
+            <div style="background-image: url(img/top_cake.jpg)"></div>
+            
+      
+     </div>
+     <p>なにか に気づける毎日を。</p>  
+
+  </div>
+
+<!-- ABOUT -->
+
+  <div id="about">
+    <div class="container">
+      <h3>ABOUT
+      <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"></h3>
+        <p>あっという間に過ぎていく日々。<br>
+
+        ひとつでもいいから昨日まで気づかなかった<br>
+        なにか に気づきたい。<br>
+        <br>
+        そんなことを思うようになった今日この頃。<br>
+        せっかくだからそんな「気づき」を<br>
+        書き留める場所を作りました。  
+        </p>
+        
+    </div>
+  </div>
+
+<!-- JOURNAL -->
+
+  <div id="journal">
+    <div class="container clearfix">
+      <h3>JOURNAL
+      <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"></h3>
+
+      <div class="listcontainer clearfix">
+        
+           <a href="journal/journal1.html"><img src="img/journal1.jpg"  width="150px" height="150px"></a>
+           <a href="journal/journal2.html"><img src="img/journal2.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal3.html"><img src="img/journal6.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal4.html"><img src="img/journal4.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal5.html"><img src="img/journal7.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal6.html"><img src="img/journal8.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal7.html"><img src="img/journal5.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal10.html"><img src="img/journal11.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal9.html"><img src="img/journal3.jpg" width="150px" height="150px"></a>
+           <a href="journal/journal8.html"><img src="img/journal10.jpg" width="150px" height="150px"></a>
+           
+       
+
+        
+      </div>
+       
+        
+    </div>
+
+  </div>
+
+
+  <div id="contact">
+    <div class="container clearfix">
+
+      <h3>CONTACT
+      <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"></h3>
+      <p>お仕事のご依頼やご質問などございましたらこちらからご連絡ください。</p>  
+      
+
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjOlAjzzklhONTyoXq2ClFH2i68-IiqWC5MOk93B-cnHq-Ow/viewform?embedded=true" width="600" height="900" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
+
+     
+    </div>
+  </div>
+
+<footer>
+
+    <p>COPYRIGHT &#169; sunao ALL RIGHTS RESERVED.  </p>
+</footer>
+
+
+
+
+
+<script src="https://use.fontawesome.com/a801c65837.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+<script src="js/skippr.min.js"></script> <!-- skipprのjsファイルを読み込む -->
+ <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body    {
+display:none
+}
+
+.container{
+	width: 800px;
+    height: 1300px;
+
+	margin: 0 auto;
+}
+
+
+
+.background{
+	background-color: #efeff0;
+	width: 400px;
+	height: 700px;
+	margin: 20px auto;
+    
+	position: relative;
+}
+
+.background img {
+	margin:25px 25px 25px;
+
+}
+
+h1 {
+	font-family: serif;
+	letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    padding-top:0px;
+    position: absolute;
+    margin: 0 auto;
+
+}
+h3 {
+	font-family: serif;
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-align: center;
+    width: 400px;
+    padding: 20px 0 50PX 0;
+    line-height: 25px;
+    position: absolute;
+}
+
+p {
+	font-family: serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    text-align: center;
+    width: 400px;
+
+    padding: 60px 0 ;
+    line-height: 23px;
+    position: absolute;
+}
+
+h5 a {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 7px;
+    color: gray;
+    text-align: center;
+    width: 400px;
+    text-decoration: none;
+    bottom: 30px;
+    line-height: 23px;
+    position: absolute;
+
+}
+
+h5 a:hover {
+    color: yellow;
+}
