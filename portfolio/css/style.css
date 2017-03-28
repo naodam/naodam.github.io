@@ -212,13 +212,13 @@ header{
 }
 */
 
-/*#journal a img {
+#journal a img {
 	opacity: 1;
 }
 
 #journal a:hover img {
  opacity: 0.5;
-}*/
+}
 
 /*#journal .listcontainer img {
 	width: 150px;
